@@ -14,7 +14,7 @@ import (
 	"golang.org/x/text/transform"
 )
 
-//go:embed executables/luac.exe executables/encrypt.exe
+//go:embed luac.exe encrypt.exe
 var embeddedFiles embed.FS
 
 type actionFuncType func(string, []string) error
